@@ -51,13 +51,13 @@ public class Gestion {
 			for (int i=0;i<clients.size() ;i++ ) {
 				Direccion direccion = new Direccion();
 
-				System.out.println("\ncliente nº: " + (i + 1));
+				System.out.println("Cliente nº " + (i + 1));
 				System.out.println("*************");
-				System.out.println("\nNombre: " + (clients.get(i).getNombre()));
-				System.out.println("\nNombre: " + (clients.get(i).getApellido()));
-				System.out.println("\nDni: " + (clients.get(i).getDni()));
-				System.out.println("\nnumero de socio: " + (clients.get(i).getNum_socio()));
-				System.out.println("\ndescuento: " + (clients.get(i).getDto()));
+				System.out.println("Nombre: " + (clients.get(i).getNombre()));
+				System.out.println("Nombre: " + (clients.get(i).getApellido()));
+				System.out.println("Dni: " + (clients.get(i).getDni()));
+				System.out.println("numero de socio: " + (clients.get(i).getNum_socio()));
+				System.out.println("descuento: " + (clients.get(i).getDto()));
 				direccion = clients.get(i).getDireccion();
 				System.out.println("\tCiudad: " + direccion.getCiudad());
 				System.out.println("\tCod.postal: " + direccion.getCodigoPostal());
