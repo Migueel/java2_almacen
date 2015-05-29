@@ -43,7 +43,6 @@ public class Gestion {
 				cliente.setNum_socio(doble);
 				doble = Double.parseDouble(campos2[1]);
 				cliente.setDto(doble);
-
 				clients.add(cliente);
 				linea = br.readLine();
 			}
