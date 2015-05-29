@@ -7,14 +7,14 @@ import java.io.BufferedReader;
 public class Main{
 	public static void main(String[] args) {
 		System.out.println("\nMenu:");
-		System.out.println("*******************************************");
-		System.out.println("Mostrar distribuidores-------------1");
-		System.out.println("Crear y mostrar lechugas------------------2");
-		System.out.println("Crear y mostrar manzanas------------------3");
-		System.out.println("Crear y mostrar tipos de leche------------4");
-		System.out.println("Leer y mostrar clientes-------------------5");
-		System.out.println("Salir-------------------------------------0");
-		System.out.println("*******************************************");
+		System.out.println("***********************************");
+		System.out.println("Mostrar distribuidores------------1");
+		System.out.println("Guardar lechugas------------------2");
+		System.out.println("Guardar manzanas------------------3");
+		System.out.println("Guardar leche---------------------4");
+		System.out.println("Mostrar clientes------------------5");
+		System.out.println("Salir-----------------------------0");
+		System.out.println("***********************************");
 		
 		Scanner sc = new Scanner(System.in);
 		ArrayList<Distribuidor> distribuidores = new ArrayList<Distribuidor>();
@@ -304,16 +304,15 @@ public class Main{
 					System.out.println("Elige una opcion.");
 				break;
 		}
-			System.out.println("\n¿Que quieres hacer?: ");
-			System.out.println("\nMenu:");
-			System.out.println("*******************************************");
-			System.out.println("Leer y mostrar distribuidores-------------1");
-			System.out.println("Crear y mostrar lechugas------------------2");
-			System.out.println("Crear y mostrar manzanas------------------3");
-			System.out.println("Crear y mostrar tipos de leche------------4");
-			System.out.println("Leer y mostrar clientes-------------------5");
-			System.out.println("Salir-------------------------------------0");
-			System.out.println("*******************************************");
+		System.out.println("\nMenu:");
+		System.out.println("***********************************");
+		System.out.println("Mostrar distribuidores------------1");
+		System.out.println("Guardar lechugas------------------2");
+		System.out.println("Guardar manzanas------------------3");
+		System.out.println("Guardar leche---------------------4");
+		System.out.println("Mostrar clientes------------------5");
+		System.out.println("Salir-----------------------------0");
+		System.out.println("***********************************");
 			opcion = sc.nextInt();
 			
 		}
